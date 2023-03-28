@@ -15,7 +15,7 @@ https://www.figma.com/file/bUGIPys15E78w9bs1l4tgS/HooBank?node-id=310-485&t=QUxZ
 git clone https://github.com/choiruladamm/hoobank.git
 ```
 
-2. Istall Package
+2. Install Package
 3. Run Project
 
 ```
