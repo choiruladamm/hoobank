@@ -9,10 +9,10 @@ const Footer = () => (
         <img
           src={logo}
           alt="hoobank"
-          className="w-[266px] h-[72px] object-contain"
+          className="w-[266px] h-[72.14px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          A new way to make payment easy, reliable and secure
+          A new way to make the payments easy, reliable and secure.
         </p>
       </div>
 
@@ -20,16 +20,16 @@ const Footer = () => (
         {footerLinks.map((footerlink) => (
           <div
             key={footerlink.title}
-            className={`flex flex-col ss:my-0 my-4 min-w-[150px] text-white`}
+            className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}
           >
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px]">
+            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
               {footerlink.title}
             </h4>
             <ul className="list-none mt-4">
               {footerlink.links.map((link, index) => (
                 <li
                   key={link.name}
-                  className={`font font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
